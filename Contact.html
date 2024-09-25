@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About JCC</title>
+    <link rel="stylesheet" href="/css/contact.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>Contact Us</title>
+</head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"
+        ><span>Jockey's </span>Conference Center.</a
+      >
+
+      <div class="navbar-nav">
+        <a href="Home.html">Home</a>
+        <a href="Event.html">Event</a>
+        <a href="PriceList.html">Price List</a>
+        <a href="About.html">About Us</a>
+        <a href="Contact.html">Contact Us</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i> </a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <section>
+      <h2>Contact Us</h2>
+      <div class="container">
+        <section class="contact" id="contact">
+          <div class="contactUs">
+            <div class="box">
+              <div class="cont form">
+                <h4>Send a Message</h4>
+                <form action="" method="GET" id="regisForm" onsubmit="validateForm(event)">
+                  <div class="formBox">
+                    <div class="row50">
+                      <div class="inputBox">
+                        <span>Full Name</span>
+                        <input type="text" placeholder="Your Name" name="fullname" id="fullname">
+                      </div>
+    
+                      <div class="inputBox">
+                        <span>Mobile Number</span>
+                        <input type="text" placeholder="+62 8123456789" name="mobile" id="mobile">
+                      </div>
+                    </div>
+    
+                    <div class="row50">
+                      <div class="inputBox">
+                        <span>Email</span>
+                        <input type="text" placeholder="loremipsum@gmail.com" name="email" id="email">
+                      </div>
+    
+                      <div class="inputBox">
+                        <span>Email Subject</span>
+                        <input type="text" placeholder="Lorem Ipsum" name="messageSub" id="messageSub">
+                      </div>
+                    </div>
+    
+                    <div class="row100">
+                      <div class="inputBox">
+                        <span>Message</span>
+                        <textarea placeholder="Write Your Message Here" name="message" id="message"></textarea>
+                      </div>
+                    </div>
+    
+                    <div class="row100">
+                      <div class="inputBox">
+                        <div class="method">
+                          <h4>Preferred Contact Method</h4>
+                          <input type="radio" name="method" id="contMobile">
+                          <span>Mobile</span>
+                          <input type="radio" name="method" id="contEmail">
+                          <span>Email</span>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="row100">
+                      <div class="inputBox">
+                        <div class="error">
+                          <h3 id="error"></h3>
+                        </div>
+                      </div>
+                    </div>
+    
+                    <div class="row100">
+                      <div class="inputBox">
+                        <div class="btn-box btns">
+                          <button type="submit" class="btn">Send</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+    
+      <div>
+        <a href="Home.html">Home</a>
+        <a href="Event.html">Event</a>
+        <a href="PriceList.html">Price List</a>
+        <a href="About.html">About Us</a>
+        <a href="Contact.html">contact Us</a>
+      </div>
+    
+      <div class="credit">
+        <p><span>Jockey's</span> Conference Center. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    
+
+    <!-- Feather Icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javascript -->
+    <script src="/script.js"></script>
+  </body>
+</html>
